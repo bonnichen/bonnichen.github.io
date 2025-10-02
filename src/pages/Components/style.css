@@ -1,0 +1,15 @@
+.socialMediaIcons {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.socialMediaIcons a {
+  /* width: 200px;
+  height: 200px; */
+  color: black;
+  font-size: 30px;
+}
+
+.socialMediaIcons a:hover {
+color: #edb96f;
+}

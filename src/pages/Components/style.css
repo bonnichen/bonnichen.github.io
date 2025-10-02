@@ -1,15 +1,30 @@
 .socialMediaIcons {
   display: flex;
-  gap: 1.6rem;
+  gap: 2rem;
 }
 
 .socialMediaIcons a {
-  /* width: 200px;
-  height: 200px; */
   color: black;
   font-size: 30px;
 }
 
 .socialMediaIcons a:hover {
-color: #edb96f;
+color: #CBC3E3;
+}
+
+.viewProjectButton {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black; 
+    border-radius: 12px;  
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.viewProjectButton:hover {
+    background-color: #CBC3E3;
+    border: 2px solid #CBC3E3; 
+    color: white;
 }

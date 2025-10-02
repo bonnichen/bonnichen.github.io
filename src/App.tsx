@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import MainPage from "./pages/MainPage";
-console.log("App is being imported!");
+import "./index.css";
 function App() {
   return (
     <MainPage/>

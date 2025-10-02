@@ -9,7 +9,7 @@
 }
 
 .socialMediaIcons a:hover {
-color: #CBC3E3;
+color: #9C89C8fa;
 }
 
 .viewProjectButton {
@@ -24,7 +24,7 @@ color: #CBC3E3;
 }
 
 .viewProjectButton:hover {
-    background-color: #CBC3E3;
-    border: 2px solid #CBC3E3; 
+    background-color: #9C89C8fa;
+    border: 2px solid #9C89C8fa; 
     color: white;
 }

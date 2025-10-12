@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  padding-top: 75px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: 840px;
+}
+
+.introduction {
+  margin-right: 45vw;
+  margin-bottom: 5vw;
+  left: 10%;
+}
+
+@media (max-width: 1000px) {
+  .introduction {
+    margin-right: 0;
+  }
+  .container {
+    height: 59.3vw;
+  }
+}
+
+.aboutContainer {
+  background-color: black;
+}
+
+.aboutMe {
+  color: white;
+  padding: 9vw;
+  margin-right: 12vw;
+}

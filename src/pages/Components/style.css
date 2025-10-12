@@ -29,7 +29,7 @@
   color: white;
 }
 
-.computerSVG{
+.computerSVG {
   position: absolute;
   z-index: -2;
   transform: translate(-1159px, 0);
@@ -50,19 +50,22 @@
   right: 5%;
 }
 
+.lineArt svg {
+  overflow: visible;
+}
 
-.cardContainer{
+.cardContainer {
   margin: 2vw;
   margin-bottom: 7vw;
   display: flex;
   overflow: hidden;
 }
 
-.image{
+.image {
   overflow: hidden;
 }
 
-.projectImage{
+.projectImage {
   width: 30vw;
   min-width: 25rem;
   height: 20vw;
@@ -70,7 +73,7 @@
   object-fit: cover;
 }
 
-.projectInfo{
+.projectInfo {
   padding-top: 1vw;
   padding-left: 2vw;
   padding-right: 2vw;
@@ -80,15 +83,15 @@
   .lineArt {
     display: none;
   }
-  .cardContainer{
-   display:inline;
-   margin:5vw;
+  .cardContainer {
+    display: inline;
+    margin: 5vw;
   }
 }
 
 @media (max-width: 750px) {
-.projectImage{
-  width: 20rem;
-  height: 10rem;
-}
+  .projectImage {
+    width: 20rem;
+    height: 10rem;
+  }
 }

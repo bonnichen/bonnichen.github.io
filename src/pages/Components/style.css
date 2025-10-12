@@ -29,18 +29,66 @@
   color: white;
 }
 
+.computerSVG{
+  position: absolute;
+  z-index: -2;
+  transform: translate(-1159px, 0);
+}
+
 .whiteLineSVG {
   position: absolute;
   transform: translate(-158px, 915px);
 }
+
+.blackLineSVG {
+  position: absolute;
+  transform: translate(-260px, 1416px);
+}
+
 .lineArt {
   position: absolute;
   right: 5%;
-  z-index: 2;
+}
+
+
+.cardContainer{
+  margin: 2vw;
+  margin-bottom: 7vw;
+  display: flex;
+  overflow: hidden;
+}
+
+.image{
+  overflow: hidden;
+}
+
+.projectImage{
+  width: 30vw;
+  min-width: 25rem;
+  height: 20vw;
+  min-height: 15rem;
+  object-fit: cover;
+}
+
+.projectInfo{
+  padding-top: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 @media (max-width: 1000px) {
   .lineArt {
     display: none;
   }
+  .cardContainer{
+   display:inline;
+   margin:5vw;
+  }
+}
+
+@media (max-width: 750px) {
+.projectImage{
+  width: 20rem;
+  height: 10rem;
+}
 }

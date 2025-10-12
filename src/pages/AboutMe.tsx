@@ -7,7 +7,7 @@ const AboutMe = () => {
         <h4>
           Hi, I'm Bonnie, a sophomore at Cornell University majoring in computer
           science. I am passionate about creating impactful and accessible
-          solutions to real-world problems. world problems. I enjoy exploring
+          solutions to real-world problems. I enjoy exploring
           how technology can be used to create efficient, secure, and
           user-centered systems that help make a positive difference in everyday
           life.

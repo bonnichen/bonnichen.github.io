@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: white;
   color: #000000;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -20,12 +21,18 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(12px, 6.67vw, 24px);
+  font-size: clamp(15px, 6.67vw, 24px);
   font-weight: 300;
 }
 
 h4 {
-  font-size: clamp(12px, 6.67vw, 18px);
+  font-size: clamp(15px, 6.67vw, 18px);
   font-weight: 300;
   line-height: 2rem;
+}
+
+h5{
+  font-size: clamp(12px, 6.67vw, 18px);
+  font-weight: 300;
+  line-height: 1.5rem;
 }

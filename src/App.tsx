@@ -1,8 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
 import MainPage from "./pages/MainPage";
 import AboutMe from "./pages/AboutMe";
-import Computer from "./pages/Components/computer";
+import Computer from "./pages/Components/Computer";
+import Projects from "./pages/Projects";
 import "./index.css";
 function App() {
   return (
@@ -10,6 +9,7 @@ function App() {
     <Computer/>
     <MainPage/>
     <AboutMe/>
+    <Projects/>
     </div>
   );
 }

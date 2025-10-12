@@ -12,6 +12,22 @@
   left: 10%;
 }
 
+.aboutContainer {
+  background-color: black;
+  height: 502px;
+}
+
+.aboutMe {
+  color: white;
+  padding: 9vw;
+  margin-right: 12vw;
+}
+
+.projectContainer {
+  margin: 7vw;
+  margin-right: 25vw;
+}
+
 @media (max-width: 1000px) {
   .introduction {
     margin-right: 0;
@@ -19,14 +35,11 @@
   .container {
     height: 59.3vw;
   }
-}
 
-.aboutContainer {
-  background-color: black;
-}
-
-.aboutMe {
-  color: white;
-  padding: 9vw;
-  margin-right: 12vw;
+  .projectContainer {
+    margin-right: 7vw;
+  }
+  .aboutContainer {
+    height: fit-content;
+  }
 }

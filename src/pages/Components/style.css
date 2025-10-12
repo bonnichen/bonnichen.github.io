@@ -1,6 +1,6 @@
 .socialMediaIcons {
   display: flex;
-  gap: 2rem;
+  gap: 2vw;
 }
 
 .socialMediaIcons a {
@@ -9,22 +9,38 @@
 }
 
 .socialMediaIcons a:hover {
-color: #9C89C8fa;
+  color: #9c89c8fa;
 }
 
 .viewProjectButton {
-    background-color: transparent;
-    color: black;
-    border: 2px solid black; 
-    border-radius: 12px;  
-    padding: 7px;
-    padding-left: 20px;
-    padding-right: 20px;
-
+  font-size: clamp(9px, 1vw, 1vw);
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 7px;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .viewProjectButton:hover {
-    background-color: #9C89C8fa;
-    border: 2px solid #9C89C8fa; 
-    color: white;
+  background-color: #9c89c8fa;
+  border: 2px solid #9c89c8fa;
+  color: white;
+}
+
+.whiteLineSVG {
+  position: absolute;
+  transform: translate(-158px, 915px);
+}
+.lineArt {
+  position: absolute;
+  right: 5%;
+  z-index: 2;
+}
+
+@media (max-width: 1000px) {
+  .lineArt {
+    display: none;
+  }
 }

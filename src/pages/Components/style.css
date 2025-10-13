@@ -84,14 +84,17 @@
     display: none;
   }
   .cardContainer {
-    display: inline;
+    display: flex;
+  flex-direction: column; /* stack children vertically */
+  justify-content: center; /* vertical centering within container */
+  align-items: center; 
     margin: 5vw;
   }
 }
 
 @media (max-width: 750px) {
   .projectImage {
-    width: 20rem;
+    max-width: 90vw;
     height: 10rem;
   }
 }

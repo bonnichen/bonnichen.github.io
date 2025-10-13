@@ -1,4 +1,5 @@
 .container {
+  width: 100%;
   display: flex;
   padding-top: 75px;
   padding-left: 5vw;
@@ -13,6 +14,7 @@
 }
 
 .aboutContainer {
+  width: 100%; 
   background-color: black;
   height: 502px;
 }
@@ -33,13 +35,15 @@
     margin-right: 0;
   }
   .container {
-    height: 59.3vw;
+    height: fit-content;
   }
 
   .projectContainer {
     margin-right: 7vw;
   }
   .aboutContainer {
+    margin-top: 5vw;
     height: fit-content;
+    margin-right: 0;
   }
 }

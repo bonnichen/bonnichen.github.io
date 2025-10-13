@@ -5,7 +5,7 @@ import { useRef, useState, useEffect } from "react";
 let Computer = () => {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const { scrollYProgress } = useScroll();
-  const path1 = useTransform(scrollYProgress, [0.12, 0.35], [0.3, 1]);
+  const path1 = useTransform(scrollYProgress, [0, 0.35], [0.3, 1]);
   const path2 = useTransform(scrollYProgress, [0.28, 0.48], [0, 1]);
   const path3 = useTransform(scrollYProgress, [0.5, 0.95], [0, 1]);
   const path2Offset = useTransform(path2, [0, 1], [1, 0]);
